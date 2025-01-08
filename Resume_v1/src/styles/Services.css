@@ -1,0 +1,23 @@
+/* Services.css */
+#services {
+    padding: 3rem;
+    background-color: #f9f9f9;
+    text-align: center;
+  }
+  
+  .service-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+  }
+  
+  .service-card {
+    background: white;
+    border-radius: 10px;
+    padding: 1.5rem;
+    box-shadow: 0 2px 5px lightgray;
+  }
+  
+  .service-card:hover {
+    box-shadow: 0 5px 15px blue;
+  }
