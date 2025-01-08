@@ -1,33 +1,52 @@
 /* Navbar.css */
+/* Navbar.css */
 .navbar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px 20px;
-    background-color: grey;
-    position: sticky;
-    top: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: rgb(1, 29, 44);
+  position: sticky;
+  top: 0;
+  border: 1px solid #ccc;
+  z-index: 1000; /* Ensure navbar stays on top */
+}
+
+
+.logo {
+  transition: transform 0.3s ease-in-out;
   }
-  
-  .logo {
-    font-size: 30px;
-    font-weight: bold;
-    color: white;
-  }
-  
-  .nav-links {
-    list-style: none;
-    display: flex;
-    gap: 20px;
-  }
-  
-  .nav-links li a {
-    text-decoration: none;
-    color: white;
-    padding: 8px 12px;
-    border-radius: 5px;
-  }
-  
-  .nav-links li a:hover {
-    border: 1px solid lightblue;
-  }
+
+  .logo:hover {
+    transform: scale(1.1);
+}
+
+.logo-link {
+  text-decoration: none;
+  font-style: inherit;
+  font-family: cursive;
+  font-size: xx-large;
+  color: rgb(4, 106, 123);
+}
+
+.logo-highlight {
+  color: rgb(183, 232, 245);
+  font-size: smaller;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links li a {
+  text-decoration: none;
+  color: white;
+  padding: 8px 12px;
+  border-radius: 5px;
+}
+
+.nav-links li a:hover {
+  border: 1px solid lightblue;
+}
