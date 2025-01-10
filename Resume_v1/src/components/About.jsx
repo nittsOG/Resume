@@ -22,7 +22,7 @@ const About = () => {
           <h2 className="card-header">Skills and Expertise</h2>
           <div className="card-content">
             <h3>
-            <ul>
+            <ul style={{ listStyleType: 'revert' ,  marginLeft: '90px' }}>
               <li>Web Development with Java Spring Boot</li>
               <li>JavaScript, React, Node.js, Express.js</li>
               <li>MERN Stack Development</li>
@@ -37,8 +37,11 @@ const About = () => {
           <h2 className="card-header">Education</h2>
           <div className="card-content">
             <h2>
-            <p>Bachelor of Technology (B.Tech) in Computer Science</p>
-            <p>Parul University, Vadodara, Gujarat</p></h2>
+            <ul style={{ listStyleType: 'inherit' ,  marginLeft: '90px' }}>
+              <li>Bachelor of Technology (B.Tech) in Computer Science</li>
+              <li>Parul University, Vadodara, Gujarat</li>
+            </ul>
+            </h2>
             <div className="map-container">
               <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d471287.2393640827!2d72.63266443331771!3d22.656340312707894!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395fda2400192473%3A0xc319c9237f2928e8!2sParul%20University!5e0!3m2!1sen!2sin!4v1736364397465!5m2!1sen!2sin" width="100%" height="250" style={{border:0}} allowFullScreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
             </div>
