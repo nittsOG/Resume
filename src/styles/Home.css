@@ -1,0 +1,64 @@
+/* Home.css */
+#home {
+  background: url('../assets/images/homebg.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-align: center;
+  height: 100vh;
+}
+
+.home-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  z-index: 1;
+}
+
+.blur-container {
+  background: rgba(14, 92, 113, 0.2); /* Semi-transparent black background */
+  backdrop-filter: blur(10px); /* Apply blur effect */
+  padding: 2rem 3rem;
+  border-radius: 15px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3); /* Subtle shadow for depth */
+}
+
+.blur-container h1 {
+  font-size: 4rem;
+  margin-bottom: 10px;
+  color: lightblue; /* Accent color for text */
+}
+
+.blur-container p {
+  font-size: 1.5rem;
+  color: white;
+}
+
+.tagline {
+  margin-top: 1rem;
+  font-size: 1.2rem;
+  color: #ccc;
+}
+
+.explore-btn {
+  margin-top: 1.5rem;
+  padding: 10px 20px;
+  background-color: lightblue;
+  color: black;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.explore-btn:hover {
+  background-color: white;
+  color: black;
+}
