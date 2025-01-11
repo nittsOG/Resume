@@ -4,12 +4,10 @@ import '../styles/Contact.css';
 const Contact = () => {
   return (
     <section id="contact">
-      {/* Contact header */}
       <h2>Contact Us</h2>
       <p>Feel free to reach out to us for any inquiries or collaboration opportunities.</p>
 
       <div className="contact-container">
-        {/* Contact Details Card */}
         <div className="contact-card">
           <h3 style={{ color: 'black' }}>Contact Details</h3>
           <p><strong>Address:</strong> 123 Main Street, Springfield, USA</p>

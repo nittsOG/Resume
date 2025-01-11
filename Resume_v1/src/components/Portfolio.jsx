@@ -1,15 +1,15 @@
 import React from 'react';
 import '../styles/Portfolio.css';
-import project1 from '../assets/images/project1.png'; // Import the image
-import project2 from '../assets/images/project2.png';  // Import the image
-import project3 from '../assets/images/project3.png';  // Import the image
+import project1 from '../assets/images/project1.png'; 
+import project2 from '../assets/images/project2.png';  
+import project3 from '../assets/images/project3.png';  
 
 const Portfolio = () => {
   const projects = [
     {
       title: 'Smart Student',
       description: 'Smart Student Information System is a web-based application developed to manage student information and provide a platform for students to interact with teachers and other students.',
-      image: project1,  // Use the imported image
+      image: project1,  
       link: 'https://github.com/nittsOG/smis.git',
       role: 'Backend Developer',
       techStack: ['Java', 'Spring', 'MySQL', 'Hibernate']

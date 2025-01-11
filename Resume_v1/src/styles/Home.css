@@ -21,17 +21,17 @@
 }
 
 .blur-container {
-  background: rgba(13, 127, 159, 0.2); /* Semi-transparent black background */
-  backdrop-filter: blur(10px); /* Apply blur effect */
+  background: rgba(13, 127, 159, 0.2); 
+  backdrop-filter: blur(10px); 
   padding: 2rem 3rem;
   border-radius: 15px;
-  box-shadow: 0 4px 15px rgba(255, 255, 255, 0.3); /* Subtle shadow for depth */
+  box-shadow: 0 4px 15px rgba(255, 255, 255, 0.3); 
 }
 
 .blur-container h1 {
   font-size: 4rem;
   margin-bottom: 10px;
-  color: lightblue; /* Accent color for text */
+  color: lightblue; 
 }
 
 .blur-container p {

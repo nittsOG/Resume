@@ -6,10 +6,10 @@
   text-align: center;
   background: url('../assets/images/homebg.jpg');
   background-repeat: no-repeat;
-  background-size: cover;  /* Ensures the image covers the full area */
+  background-size: cover;  
   background-position: center;
-  height: 100vh;  /* Ensures the section takes full viewport height */
-  position: relative;  /* Keeps other content properly placed on top */
+  height: 100vh;  
+  position: relative;  
 }
 
 .portfolio-container {
@@ -18,19 +18,18 @@
   grid-template-columns: repeat(3, 1fr);
   gap: 2.5rem;
   padding: 3rem;
-  position: relative;  /* Keeps the content from being affected by background */
+  position: relative; 
 }
 
 .portfolio-item {
-  /* background: rgb(255, 246, 246); */
-  background: rgba(115, 236, 255, 0.2); /* Semi-transparent black background */
-  backdrop-filter: blur(10px); /* Apply blur effect */
+  background: rgba(115, 236, 255, 0.2); 
+  backdrop-filter: blur(10px); 
 
   border-radius: 10px;
   box-shadow: 0 2px 4px rgb(255, 255, 255);
-  padding: 3rem;  /* Increased padding to give more space inside the card */
+  padding: 3rem; 
   transition: box-shadow 0.3s cubic-bezier(0.075, 0.82, 0.165, 1);
-  min-height: 350px;  /* Set a minimum height to make the cards taller */
+  min-height: 350px; 
 }
 
 .portfolio-item:hover {
